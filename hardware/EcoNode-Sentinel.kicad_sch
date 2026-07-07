@@ -2560,6 +2560,12 @@
 		(uuid "cd6843f8-50d6-41fb-9163-46a7e6456d8b")
 	)
 	(junction
+		(at 199.39 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5bc69df-6e43-44e6-a699-c6bf99cc6a18")
+	)
+	(junction
 		(at 137.16 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2859,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 69.85) (xy 191.77 69.85)
+			(xy 231.14 69.85) (xy 199.39 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2876,6 +2882,16 @@
 			(type default)
 		)
 		(uuid "971d7f4c-4ab1-4bd9-b538-54e469719ef2")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996af808-46b6-468e-88f3-a57b0f4f187f")
 	)
 	(wire
 		(pts
@@ -2916,6 +2932,16 @@
 			(type default)
 		)
 		(uuid "b50306f7-c72e-4a64-9ff6-4609ec06e10b")
+	)
+	(wire
+		(pts
+			(xy 199.39 69.85) (xy 199.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53df812-293d-4668-946f-4b284e7d7cc0")
 	)
 	(wire
 		(pts
@@ -2966,6 +2992,16 @@
 			(type default)
 		)
 		(uuid "cf05c0cc-f98d-482e-9b52-a19587ebddf0")
+	)
+	(wire
+		(pts
+			(xy 199.39 69.85) (xy 191.77 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc2c757-feff-4e8b-bb71-e958bc58cfc7")
 	)
 	(wire
 		(pts
@@ -3049,16 +3085,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 104.14) (xy 139.7 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe4930b-0e65-46cf-acdb-aea50a8576b8")
-	)
-	(wire
-		(pts
 			(xy 172.72 115.57) (xy 162.56 115.57)
 		)
 		(stroke
@@ -3066,16 +3092,6 @@
 			(type default)
 		)
 		(uuid "ec2f8e7c-1c4c-4cff-88c1-21cca2437544")
-	)
-	(wire
-		(pts
-			(xy 148.59 143.51) (xy 148.59 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f811c0b3-76ee-4804-b5b3-f1deb17893c6")
 	)
 	(wire
 		(pts
@@ -3137,16 +3153,6 @@
 		)
 		(uuid "fecc9079-6a2c-481a-9f7d-b68405c7b781")
 	)
-	(label " USB_D+"
-		(at 139.7 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d4a7a62-0b78-4531-8049-b85fcc18935b")
-	)
 	(label "USB_D-"
 		(at 139.7 100.33 0)
 		(effects
@@ -3156,6 +3162,36 @@
 			(justify left bottom)
 		)
 		(uuid "551eaa8e-1beb-4e69-a467-c5ea2cb29148")
+	)
+	(label "USB_D+"
+		(at 214.63 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fa7094b-8ce7-456f-978b-98ab63a00d14")
+	)
+	(label "USB_D-"
+		(at 214.63 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4c3e140-28c5-4c3b-b531-b8735cfc318e")
+	)
+	(label "USB_D+"
+		(at 139.7 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6eec1a2-6372-437c-b2c3-7b1f2383b8ef")
 	)
 	(symbol
 		(lib_id "Device:C")
